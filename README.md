@@ -1,12 +1,12 @@
-🏥 Healthcare Analytics for Doctor Visits
+# 🏥 Healthcare Analytics for Doctor Visits 
 
-📌 Project Overview
+## 📌 Project Overview ##
 
 The Healthcare Analytics for Doctor Visits project explores patient doctor-visit patterns using Python and data analysis techniques. The goal is to understand how doctor visits vary across patients based on illness scores, gender, and other available demographic information.
 
 This project uses Exploratory Data Analysis (EDA) to identify patterns and present findings through visualizations that can help support data-driven healthcare insights.
 
-🎯 Objectives
+## 🎯 Objectives ##
 
 Analyze the distribution of doctor visits among patients.
 
@@ -18,39 +18,24 @@ Explore patient demographics and healthcare utilization patterns.
 
 Communicate insights through clear, informative visualizations.
 
-📂 Dataset Overview
+## 📂 Dataset Overview ##
 
 The dataset contains 5,190 records and 13 columns related to patient characteristics and doctor visits.
 
-Dataset Detail
+| Dataset Detail | Description |
+|:---|:---|
+| **Total Records** | 5,190 |
+| **Total Columns** | 13 |
+| **Missing Values** | None detected during initial inspection |
+| **Target Variable** | `visits` |
+| **Analysis Type** | Exploratory Data Analysis (EDA) |
 
-Description
-
-Total records
-
-5,190
-
-Total columns
-
-13
-
-Missing values
-
-None detected during initial inspection
-
-Target variable for analysis
-
-visits
-
-Analysis type
-
-Exploratory Data Analysis
 
 The dataset includes information such as patient demographics, illness scores, and recorded doctor visits.
 
 Note: These findings describe the dataset used in this project and should not be interpreted as conclusions about all patients or healthcare systems.
 
-🛠️ Technologies Used
+## 🛠️ Technologies Used ##
 
 Python — Data analysis and processing
 
@@ -64,7 +49,7 @@ Seaborn — Statistical visualization
 
 Jupyter Notebook — Interactive analysis and documentation
 
-🔍 Project Workflow
+## 🔍 Project Workflow ##
 
 Data loading: Imported the healthcare dataset into a Pandas DataFrame.
 
@@ -78,9 +63,11 @@ Visualization: Created charts to communicate the distribution of visits and rela
 
 Insights: Interpreted the observed patterns while keeping the limitations of the data in mind.
 
-📊 Key Visualizations and Findings
+## 📊 Key Visualizations and Findings ##
 
 <img width="704" height="470" alt="image" src="https://github.com/user-attachments/assets/feb706cf-8fba-4f9f-9be5-2e35608f0db7" />
+
+
 
 1. Distribution of Doctor Visits
 
@@ -91,6 +78,8 @@ Key insight: Most records in this dataset contain zero doctor visits, while a sm
 
 <img width="567" height="455" alt="image" src="https://github.com/user-attachments/assets/b3f6e141-3342-4ac4-825d-bce1c4c22282" />
 
+
+
 2. Illness Score vs. Average Doctor Visits
 
 The chart shows an overall increase in average recorded doctor visits as the illness score rises.
@@ -98,7 +87,11 @@ The chart shows an overall increase in average recorded doctor visits as the ill
 Key insight: Records with higher illness scores tend to have higher average doctor-visit counts in this dataset. The highest average in the displayed chart occurs at illness score 5.
 
 
+
+
 <img width="576" height="455" alt="image" src="https://github.com/user-attachments/assets/73e20c81-3557-4278-9b09-9868f0b6a4fd" />
+
+
 
 3. Average Doctor Visits by Gender
 
@@ -112,7 +105,7 @@ Key insight: Female records show a higher average visit count than male records 
 
 
 
-💡 Business and Healthcare Relevance
+## 💡 Business and Healthcare Relevance ##
 
 The analysis demonstrates how data analytics can help explore healthcare utilization patterns.
 
@@ -128,7 +121,7 @@ Supporting further investigation into patient behavior and service demand.
 
 These are potential applications of the analysis, not outcomes validated by this project.
 
-⚠️ Limitations
+## ⚠️ Limitations ##
 
 The analysis describes patterns in the available dataset only.
 
@@ -140,7 +133,7 @@ The project focuses on exploratory data analysis; it does not currently implemen
 
 The results may not generalize to other patient populations or healthcare settings.
 
-🔮 Future Improvements
+## 🔮 Future Improvements ##
 
 Add deeper statistical analysis to investigate observed relationships.
 
@@ -152,7 +145,7 @@ Evaluate an appropriate predictive model if the dataset and project objectives s
 
 Improve documentation and automate the analysis workflow.
 
-👨‍💻 Author
+## 👨‍💻 Author ##
 
 Prashant Kashyap
 
